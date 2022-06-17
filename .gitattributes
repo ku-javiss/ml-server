@@ -1,4 +1,4 @@
 fine_bigbird.pt filter=lfs diff=lfs merge=lfs -text
-domain_load filter=lfs diff=lfs merge=lfs -text
-electra_load filter=lfs diff=lfs merge=lfs -text
-keyword_load filter=lfs diff=lfs merge=lfs -text
+domain_load/* filter=lfs diff=lfs merge=lfs -text
+electra_load/* filter=lfs diff=lfs merge=lfs -text
+keyword_load/* filter=lfs diff=lfs merge=lfs -text
