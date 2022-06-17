@@ -17,8 +17,8 @@ import re
 app = Flask(__name__)
 elec_model = './electra_load'
 
-tokenizer_sum = AutoTokenizer.from_pretrained("models/tokenizer/")
-model_sum = AutoModelForSeq2SeqLM.from_pretrained("models/model/").cuda()
+tokenizer_sum = AutoTokenizer.from_pretrained("summary_models/tokenizer/")
+model_sum = AutoModelForSeq2SeqLM.from_pretrained("summary_models/model/").cuda()
 encoder_max_length = 1024
 
 def check_news(question):
